@@ -1,3 +1,6 @@
+# ignora la base de datos temporal de la aplicacion
+app.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
