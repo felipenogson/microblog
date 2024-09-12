@@ -63,3 +63,9 @@ def register():
         db.session.commit()
     return render_template('register.html', title='Register', form=form)
 
+@app.route('/user/<username>')
+@login_required
+def user(username):
+    user
+    return render_template('user.html')
+
